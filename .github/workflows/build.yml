@@ -64,7 +64,7 @@ jobs:
         continue-on-error: false
 
       - name: Generating `Bibata` Cursor Themes
-        run: make
+        run: make WIN_SIZE=64
         continue-on-error: false
 
       - name: Compressing `Bibata-Modern` Unix Themes
